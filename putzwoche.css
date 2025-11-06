@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 900px;
+    padding: 2rem;
+}
+
+.date {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #333;
+    text-align: center;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.group {
+    padding: 0.75rem;
+    border-radius: 8px;
+    color: #000;
+}
+
+.group-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.task {
+    font-size: 0.8rem;
+}
+
+.lg7 { background-color: #ff99ff; }
+.lg4 { background-color: #99ff99; }
+.lg1 { background-color: #ffff99; }
+.lg5 { background-color: #ffcc99; }
